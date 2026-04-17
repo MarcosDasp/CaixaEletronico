@@ -1,6 +1,6 @@
 # 💰 Caixa Eletrônico em Java
 
-![Java](https://img.shields.io/badge/Java-17%2B-blue)
+![Java](https://img.shields.io/badge/Java-25%2B-blue)
 ![JUnit](https://img.shields.io/badge/JUnit-5-green)
 ![Mockito](https://img.shields.io/badge/Mockito-5.x-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Completo-success)
