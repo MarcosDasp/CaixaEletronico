@@ -1,6 +1,6 @@
 # 💰 Caixa Eletrônico em Java
 
-![Java](https://img.shields.io/badge/Java-25%2B-blue)
+![Java](https://img.shields.io/badge/Java-17%2B-blue)
 ![JUnit](https://img.shields.io/badge/JUnit-5-green)
 ![Mockito](https://img.shields.io/badge/Mockito-5.x-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Completo-success)
@@ -63,6 +63,16 @@ Foram implementados testes para validar:
 
 ---
 
+## 📸 Resultado dos Testes
+
+Exemplo de execução dos testes no terminal:
+
+![Resultado dos testes](./assets/testes.png)
+
+> 💡 Dica: coloque um print da sua execução dentro da pasta `assets/` com o nome `testes.png`
+
+---
+
 ## 🗂️ Estrutura do Projeto
 
 ```
@@ -108,6 +118,53 @@ mock-maker-subclass
 ```
 
 * Isso evita problemas com o mecanismo de agentes do Java
+
+---
+
+## 🧪 Boas Práticas de Teste Aplicadas
+
+O projeto foi desenvolvido seguindo boas práticas de testes unitários:
+
+### 🔴🟢 Ciclo TDD
+Foi adotado o ciclo **Test Driven Development (TDD)**:
+- Escrita inicial de testes (falhando - RED)
+- Implementação mínima para passar (GREEN)
+- Refatoração do código (REFACTOR)
+
+---
+
+### 🧱 Estrutura AAA
+Todos os testes seguem o padrão:
+
+- **Arrange** → preparação dos dados e mocks  
+- **Act** → execução da ação testada  
+- **Assert** → verificação dos resultados  
+
+---
+
+### 🔒 Isolamento
+- Cada teste é independente  
+- Não há compartilhamento de estado entre testes  
+- Uso de **Mockito** para simular dependências externas  
+
+---
+
+### 🏷️ Nomenclatura
+Os testes seguem o padrão descritivo:
+
+> deve + comportamento + condição
+
+Exemplo: `deveRetornarNotasCorretasQuandoValorFor380`
+
+---
+
+### 📊 Cobertura de Cenários
+
+Os testes cobrem:
+
+- ✔ **Happy Path** → valores válidos (ex: 380, 30)  
+- ✔ **Edge Cases** → valores mínimos (ex: 10)  
+- ✔ **Exceções** → valores inválidos (ex: 35)  
 
 ---
 
