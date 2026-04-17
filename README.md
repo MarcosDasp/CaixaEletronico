@@ -63,16 +63,6 @@ Foram implementados testes para validar:
 
 ---
 
-## 📸 Resultado dos Testes
-
-Exemplo de execução dos testes no terminal:
-
-![Resultado dos testes](./assets/testes.png)
-
-> 💡 Dica: coloque um print da sua execução dentro da pasta `assets/` com o nome `testes.png`
-
----
-
 ## 🗂️ Estrutura do Projeto
 
 ```
